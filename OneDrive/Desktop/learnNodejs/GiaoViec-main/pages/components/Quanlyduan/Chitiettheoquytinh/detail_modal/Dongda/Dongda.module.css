@@ -1,0 +1,54 @@
+.name {
+  margin: 0;
+  color: #474747;
+  font-size: 15px;
+  font-weight: bold;
+}
+.name span {
+  color: red;
+}
+.title {
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.title input {
+  width: 472px;
+  height: 32px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+.title .checkbox {
+  width: 16px;
+  height: 16px;
+}
+
+.title textarea {
+  width: 472px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+.time_work {
+  display: flex;
+  justify-content: space-between;
+}
+.time_work > input {
+  width: 180px;
+}
+.button {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.button > button {
+  width: 150px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.huy {
+  background: #ffa800;
+}
+.ok {
+  background: #4c5bd4;
+}

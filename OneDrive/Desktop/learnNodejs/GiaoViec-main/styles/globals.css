@@ -1,0 +1,487 @@
+:root {
+  --selected-color: #4c5bd4;
+}
+
+.err {
+  color: red;
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+.small-font {
+  font-size: 600px;
+}
+.mainSideBarcty {
+  overflow-y: scroll;
+}
+.mainSideBar .ant-menu-item-selected {
+  color: #fff;
+  background-color: #ffa800;
+}
+
+.mainSideBar .ant-menu .ant-menu-submenu-selected > .ant-menu-submenu-title {
+  color: #fff;
+}
+
+.mainSideBar .ant-menu-item-active,
+.mainSideBar .ant-menu-item:hover,
+.mainSideBar .ant-menu-submenu-title:hover {
+  background-color: #ffa800 !important;
+  color: #fff !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #4c5bd4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cacef2;
+  border-radius: 10px;
+}
+
+@media (max-width: 767.9px) {
+  .row [class*="col-9"] {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .s1 {
+    display: none !important;
+  }
+  .s2 {
+    width: 100% !important;
+    float: left;
+    margin-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .s2 {
+    width: 100% !important;
+    float: left;
+    margin-left: 0;
+    /* padding-top: 50px; */
+  }
+  .s3 {
+    height: 650px;
+    width: 100% !important;
+    float: left;
+    margin-left: 0;
+    padding-top: 50px;
+  }
+}
+@media (min-width: 480px) {
+  .s3 {
+    height: 650px;
+  }
+}
+@media (max-width: 480px) {
+  .s2 {
+    width: 100% !important;
+    float: left;
+    margin-left: 0;
+    padding-top: 50px;
+  }
+  .s3 {
+    width: 100% !important;
+    float: left;
+    margin-left: 0;
+    padding-top: 0px;
+  }
+}
+:where(.css-dev-only-do-not-override-byeoj0).ant-table-wrapper
+  .ant-table-pagination.ant-pagination {
+  margin: 16px 0;
+  display: none;
+}
+/* list */
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table-pagination-right {
+  justify-content: center;
+}
+.modal {
+  --bs-modal-zindex: 1488;
+  --bs-modal-width: 617px !important;
+  --bs-modal-padding: 1rem;
+}
+.modal-footer {
+  padding: inherit !important;
+}
+
+:where(.css-dev-only-do-not-override-txh9fw).ant-btn-primary {
+  color: #fff;
+  background-color: #4c5bd4;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+  border-radius: 21px;
+}
+/* :where(.css-dev-only-do-not-override-txh9fw).ant-btn > span {
+  display: inline-block;
+  font-weight: 500;
+} */
+
+:where(.css-dev-only-do-not-override-txh9fw).ant-segmented {
+  background-color: #4c5bd6;
+}
+
+.QuanLyDuLieuDaXoaGanDay_deta_delete_one__1R5wd svg {
+  width: 30px !important;
+  height: 33px !important;
+}
+:where(.css-dev-only-do-not-override-txh9fw).ant-segmented
+  .ant-segmented-item-label {
+  min-height: 15px !important;
+  line-height: 4px !important;
+  padding: 2px 5px !important;
+}
+:where(.css-dev-only-do-not-override-txh9fw).ant-btn {
+  font-size: 18px;
+  height: 41px;
+}
+
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-content
+  > table
+  > thead
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-header
+  > table
+  > thead
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-body
+  > table
+  > thead
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-summary
+  > table
+  > thead
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-content
+  > table
+  > thead
+  > tr
+  > td,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-header
+  > table
+  > thead
+  > tr
+  > td,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-body
+  > table
+  > thead
+  > tr
+  > td,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-summary
+  > table
+  > thead
+  > tr
+  > td,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-content
+  > table
+  > tbody
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-header
+  > table
+  > tbody
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-body
+  > table
+  > tbody
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-summary
+  > table
+  > tbody
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-content
+  > table
+  > tbody
+  > tr
+  > td,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-header
+  > table
+  > tbody
+  > tr
+  > td,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-body
+  > table
+  > tbody
+  > tr
+  > td,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-summary
+  > table
+  > tbody
+  > tr
+  > td,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-content
+  > table
+  > tfoot
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-header
+  > table
+  > tfoot
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-body
+  > table
+  > tfoot
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-summary
+  > table
+  > tfoot
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-content
+  > table
+  > tfoot
+  > tr
+  > td,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-header
+  > table
+  > tfoot
+  > tr
+  > td,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-body
+  > table
+  > tfoot
+  > tr
+  > td,
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-summary
+  > table
+  > tfoot
+  > tr
+  > td {
+  border-inline-end: none !important;
+}
+.ant-table-wrapper .ant-table-pagination.ant-pagination {
+  margin: 16px 0;
+  /* display: none !important; */
+}
+.list_work .ant-table-wrapper .ant-table-pagination.ant-pagination {
+  margin: 16px 0;
+  /* display: none; */
+}
+.list_work .ant-table-wrapper .ant-table-pagination-right {
+  justify-content: flex-end;
+  display: none;
+}
+.ant-table-wrapper .ant-table-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  display: none;
+}
+.ant-modal .ant-modal-title {
+  margin: 0;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 2.5;
+  word-wrap: break-word;
+  background-color: #4c5bd4 !important;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+
+.ant-modal .ant-modal-content {
+  position: relative;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  pointer-events: auto;
+  padding: 0;
+  /* width: 416px; */
+}
+
+:where(.css-dev-only-do-not-override-byeoj0).ant-btn-default {
+  /* background-color: #ffffff; */
+
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+  /* background-color: #ffa800; */
+  /* color: white; */
+}
+.ant-modal-body {
+  padding: 20px;
+}
+
+.remove_class {
+  background-color: var(--selectedColor);
+}
+
+.bgr_alt0 {
+  background-color: #4c5bd4 !important;
+}
+
+.bgr_alt1 {
+  background-image: radial-gradient(
+    circle at center 75%,
+    rgb(42, 127, 227) 0%,
+    rgb(0, 191, 145) 50%,
+    rgb(159, 213, 45) 100%
+  ) !important;
+}
+.bgr_alt2 {
+  background-image: radial-gradient(
+    circle at center 75%,
+    rgb(255, 143, 178) 0%,
+    rgb(167, 151, 255) 50%,
+    rgb(0, 229, 255) 100%
+  ) !important;
+}
+.bgr_alt3 {
+  background-image: radial-gradient(
+    circle at center 75%,
+    rgb(251, 69, 222) 0%,
+    rgb(132, 29, 213) 50%,
+    rgb(58, 29, 138) 100%
+  ) !important;
+}
+.bgr_alt4 {
+  background-image: radial-gradient(
+    circle at center 75%,
+    rgb(74, 201, 228) 0%,
+    rgb(88, 144, 255) 50%,
+    rgb(140, 145, 255) 100%
+  ) !important;
+}
+.bgr_alt5 {
+  background-image: radial-gradient(
+    circle at center 75%,
+    #7d79d9 0%,
+    #aa82c1 50%,
+    #dd8ca2 100%
+  ) !important;
+}
+.bgr_alt6 {
+  background-image: radial-gradient(
+    circle at center 75%,
+    rgb(0, 199, 211) 0%,
+    rgb(54, 83, 232) 100%
+  ) !important;
+}
+.bgr_alt7 {
+  background-image: radial-gradient(
+    circle at center 75%,
+    rgb(255, 98, 91) 0%,
+    rgb(197, 50, 173) 50%,
+    rgb(77, 62, 194) 100%
+  ) !important;
+}
+.bgr_alt8 {
+  background-color: #a97180 !important;
+}
+.bgr_alt9 {
+  background-color: #0a7cff !important;
+}
+.bgr_alt10 {
+  background-image: radial-gradient(
+    circle at center 75%,
+    rgb(37, 192, 225) 0%,
+    rgb(206, 131, 42) 100%
+  ) !important;
+}
+@media (max-width: 375px) {
+  .ant-modal .ant-modal-title {
+    margin: 0;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2.5;
+    word-wrap: break-word;
+    background-color: #4c5bd4 !important;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+  }
+}

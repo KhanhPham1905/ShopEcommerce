@@ -1,0 +1,257 @@
+.margin_10px {
+  width: 79.3%;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.db_flex {
+  display: flex;
+  margin: 20px 0px 0px -20px;
+}
+
+#box_content {
+  width: 97%;
+  float: left;
+  margin-top: 35px;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  border-radius: 8px;
+  margin-bottom: 75px;
+  padding: 25px;
+  text-align: center;
+  height: 156px;
+}
+
+.num {
+  /* font-size: 46px; */
+  height: auto;
+  width: auto;
+
+  font-size: 60px;
+  line-height: 35px;
+  color: #4c5bd4;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0px;
+  margin: 30px;
+}
+.num_bl {
+  color: blue;
+}
+.num_gr {
+  color: #76b51b;
+}
+.num_red {
+  color: red;
+}
+.num_yl {
+  color: #ffa500;
+}
+.box_suff {
+  font-size: 16px;
+  font-weight: 600;
+  color: #666666;
+  text-align: center;
+  line-height: 17px;
+  margin: 0px;
+}
+#navbar_meeting .navbar {
+  width: 95%;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 30px;
+}
+.all_metting {
+  width: 23%;
+  float: left;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.all_metting > image {
+  padding-top: 10px;
+}
+.wind_alm {
+  width: 100%;
+  float: left;
+  padding: 15px 15px 15px 68px;
+  position: relative;
+}
+
+.all_metting .wind_alm input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.all_metting .windo_one::after {
+  background: url("/window_met.png") no-repeat;
+}
+.all_metting .windo_tow::after {
+  background: url("/sdr_met.png") no-repeat;
+}
+.all_metting .windo_three::after {
+  background: url("/dtbt_met.png") no-repeat;
+}
+.all_metting .windo_four::after {
+  background: url("/chb_met.png") no-repeat;
+}
+
+.all_metting .windo_one::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 37px;
+  height: 37px;
+}
+.all_metting .windo_tow::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 37px;
+  height: 37px;
+}
+.all_metting .windo_three::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 37px;
+  height: 37px;
+}
+.all_metting .windo_four::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 37px;
+  height: 37px;
+}
+
+/* responsive  */
+/* Add a media query for smaller screens */
+@media (max-width: 768px) {
+  .db_flex {
+    margin: 10px 0px 0px -10px; /* Adjust margin for smaller screens */
+  }
+  .box {
+    width: 48%; /* Adjust box width for smaller screens */
+    margin-bottom: 20px; /* Adjust margin for smaller screens */
+    padding: 15px; /* Adjust padding for smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+  }
+  .num {
+    font-size: 40px; /* Adjust font size for smaller screens */
+    margin: 10px; /* Adjust margin for smaller screens */
+  }
+  .box_suff {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    line-height: 16px; /* Adjust line height for smaller screens */
+  }
+}
+
+/* Add another media query for even smaller screens if needed */
+@media (max-width: 480px) {
+  .db_flex {
+    margin: 5px 0px 0px -5px; /* Adjust margin for even smaller screens */
+  }
+  .box {
+    /* width: 100%; */
+    margin-bottom: 15px; /* Adjust margin for even smaller screens */
+    padding: 10px; /* Adjust padding for even smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+  }
+  .num {
+    font-size: 30px; /* Adjust font size for even smaller screens */
+    margin: 5px; /* Adjust margin for even smaller screens */
+  }
+  .box_suff {
+    font-size: 12px; /* Adjust font size for even smaller screens */
+    line-height: 14px; /* Adjust line height for even smaller screens */
+  }
+}
+.note_mett {
+  width: 100%;
+  float: left;
+  font-size: 14px;
+  line-height: 16px;
+  color: #474747;
+  font-weight: normal;
+}
+.all_metting .wind_alm .numb_mett {
+  width: 100%;
+  float: left;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 3px;
+}
+
+@media (max-width: 929px) and (min-width: 767px) {
+  .num {
+    font-size: 50px; /* Adjust font size for even smaller screens */
+    margin: 5px; /* Adjust margin for even smaller screens */
+  }
+  .box_suff {
+    font-size: 14px; /* Adjust font size for even smaller screens */
+    line-height: 30px; /* Adjust line height for even smaller screens */
+  }
+}
+/* Responsive và chia thành 4 phần khi màn hình nhỏ */
+
+@media (max-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .all_metting {
+    flex-basis: 45%;
+    padding: 10px;
+  }
+}
+
+.searchcv .search_avts::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  z-index: 1;
+  background: url("/search.png") no-repeat;
+  width: 22px;
+  height: 22px;
+}
+.all_metting.active {
+  background-color: #ffa800; /* Change this to the desired color */
+}
+.all_metting.active .note_mett {
+  color: #ffffff;
+}
+.all_metting.active .numb_mett {
+  color: #ffffff;
+}
+.all_metting.active .windo_one::after {
+  background: url("/ac_wind.png") no-repeat;
+}
+.all_metting.active .windo_tow::after {
+  background: url("/ac_chbh.png") no-repeat;
+}
+.all_metting.active .windo_three::after {
+  background: url("/ac_chbh.png") no-repeat;
+}
+.all_metting.active .windo_four::after {
+  background: url("/ac_chbh.png") no-repeat;
+}

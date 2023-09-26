@@ -1,0 +1,124 @@
+.select {
+  position: absolute;
+  float: left;
+  background: #ffffff;
+  width: 280px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  top: 225px;
+  z-index: 1;
+  left: 320px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.select > p:hover:first-child {
+  border-radius: 10px 10px 0 0;
+}
+.select > p:hover {
+  background: #d3d3d3;
+}
+.offline {
+  position: fixed;
+  /* display: none; */
+  z-index: 1;
+  padding: 100px 0px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.off_content {
+  position: relative;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  width: 580px;
+}
+.content {
+  margin: 20px;
+  color: #ffffff;
+  overflow-x: scroll;
+}
+.off_content > h4 {
+  background: #4c5bd4;
+  height: 60px;
+  border-radius: 10px 10px 0px 0px;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+.off_content > span {
+  position: relative;
+  float: right;
+  top: -42px;
+  right: 12px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.form_gr {
+  padding-bottom: 15px;
+}
+.form_gr > input {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.form_gr > p {
+  margin: 0;
+  font-weight: bold;
+}
+.form_gr .gr {
+  display: flex;
+  justify-content: space-between;
+}
+.form_gr .gr > p {
+  margin: 0;
+}
+.form_gr > Select {
+  color: #474747;
+}
+.time_start {
+  margin-top: 41px;
+}
+.time_start > input {
+  width: 132px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.date_start > p {
+  font-weight: bold;
+}
+.time {
+  font-weight: bold;
+}
+.cancel_ok {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel_ok > button {
+  color: #ffffff;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  height: 38px;
+  margin: 0 20px 20px 20px;
+}
+.huy {
+  background: #ffa800;
+}
+.ok {
+  background: #4c5bd4;
+}
+.link {
+  display: flex;
+  justify-content: space-between;
+}

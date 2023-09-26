@@ -1,0 +1,69 @@
+.off_content .content .form_gr input {
+  width: 100%;
+  height: 34px;
+}
+.form_gr textarea {
+  width: 480px;
+}
+.gr {
+  display: flex;
+  justify-content: space-between;
+}
+.gr > div > p {
+  font-size: 15px;
+  font-weight: bold;
+}
+.time_start {
+  margin-top: 40px;
+}
+.form_gr {
+  margin-top: 10px;
+}
+.form_gr > p {
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.cancel_ok {
+  display: flex;
+  justify-content: space-around;
+}
+.cancel_ok > button {
+  width: 150px;
+  height: 38px;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.huy {
+  background: #ffa800;
+}
+.ok {
+  background: #4c5bd4;
+}
+@media (max-width: 503px) {
+  .timegr {
+    display: flex;
+    flex-direction: column;
+  }
+  .cancel_ok > button {
+    width: 120px;
+  }
+}
+.form_gr > input {
+  height: 30px;
+  border: 1px solid #666666;
+}
+.form_gr .gr .time_start > input {
+  width: 132px;
+  height: 38px;
+  border-radius: 5px;
+  border: 1px solid #666666;
+}
+@media (max-width: 453px) {
+  .form_gr .gr {
+    display: flex;
+    flex-direction: column;
+  }
+}

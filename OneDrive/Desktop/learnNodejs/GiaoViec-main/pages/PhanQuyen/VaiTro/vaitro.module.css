@@ -1,0 +1,164 @@
+.btn_themmoi {
+  background: #4c5bd4;
+  color: #ffffff;
+  width: 100px;
+  height: 34px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 7px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn_themmoi:hover {
+  color: #ffffff;
+}
+.name_list {
+  font-size: 16px;
+  font-weight: bold;
+  background: #4c5bd4;
+  height: 53px;
+  line-height: 51px;
+  color: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.title1 {
+  margin-top: 15px;
+}
+.title1 > input {
+  height: 38px;
+  width: 100%;
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #666666;
+}
+.title {
+  border-bottom: 1px dashed #666666;
+  margin-top: 15px;
+}
+.name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.name1 {
+  margin: 0;
+  width: 240px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+}
+.title > input {
+  height: 38px;
+  width: 100%;
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #666666;
+}
+.title > input:not([type="range"]):not([type="color"]) {
+  writing-mode: horizontal-tb !important;
+}
+
+.quanlyda1 {
+  display: flex;
+  width: 100%;
+}
+
+.noidung {
+  margin: 15px 20px 0;
+}
+.box {
+  display: flex;
+}
+.quanlyda {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.quanlyda > Select {
+  margin-bottom: 30px;
+}
+.button {
+  display: flex;
+  text-align: center;
+  padding: 30px;
+  justify-content: space-evenly;
+}
+.button > button {
+  width: 200px;
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.huy {
+  background: #ffa800;
+}
+.ok {
+  background: #4c5db4;
+}
+.edit_quyen {
+  color: #ffffff;
+  background: #4c5bd4;
+  text-decoration: none;
+  width: 200px;
+  height: 36px;
+  font-size: 16px;
+  font-weight: bold;
+  float: right;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 38px;
+  border-radius: 10px;
+}
+.edit_quyen:hover {
+  color: #ffffff;
+}
+.title12 {
+  display: flex;
+}
+.sua {
+  text-decoration: none;
+  color: #4c5bd4;
+  font-size: 15px;
+  font-weight: bold;
+}
+.name_vaitro {
+  text-decoration: none;
+  color: #4c5bd4;
+}
+.name_vaitro:hover {
+  color: #4c5bd4;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  /*-- Code cho màn hình vừa (Table) viết ở đây --*/
+  .box {
+    overflow-x: auto;
+  }
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  .box {
+    overflow-x: scroll;
+  }
+  .box .ant-select-show-search {
+    width: 350px !important;
+  }
+}
+@media (max-width: 475px) {
+  .button > button {
+    width: 70px;
+  }
+}
+@media (max-width: 375px) {
+  .box {
+    overflow-x: scroll;
+  }
+}

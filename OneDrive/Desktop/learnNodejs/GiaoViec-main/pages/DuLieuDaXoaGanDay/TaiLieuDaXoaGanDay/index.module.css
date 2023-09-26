@@ -1,0 +1,210 @@
+.box_setting {
+  width: 100%;
+  float: left;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+/* .dau{
+    width: 100%;
+    float: left;
+    background: #4C5BD4;
+} */
+.dau_1 {
+  width: 100%;
+  float: left;
+  background: #4c5bd4;
+  width: 100%;
+  float: left;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 17px 23px;
+}
+.creat_meeting {
+  margin-top: 100px;
+  margin-bottom: 16px;
+  width: 100%;
+  padding: 40px;
+}
+.meeting_all {
+  width: 100%;
+  float: left;
+}
+.creartm_one {
+  width: 45%;
+  float: left;
+  position: relative;
+  padding-top: 20px;
+  padding: 20px;
+}
+.dulieuxoa {
+  display: inline-block;
+  position: relative;
+  margin-left: 268px;
+}
+.search_de_nh {
+  width: 100%;
+  height: 37px;
+  background: #ffffff;
+  border: 1px solid #474747;
+  border-radius: 50px;
+  font-size: 14px;
+  color: #666666;
+  padding-left: 13px;
+}
+.search_de_nh_ab {
+  position: absolute;
+  top: 7px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.searchm input {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 30%;
+  float: right;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666666;
+  padding: 11px 30px 11px 14px;
+  background: #ffffff;
+  border: 1px solid #474747;
+  border-radius: 76px;
+  outline: 0;
+}
+.searchm img.search_linh_3 {
+  position: absolute;
+  top: 188px;
+  right: 54px;
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+.search_project {
+  cursor: pointer;
+}
+
+.data_delete_da_xoa_k1_body .ten_th_b {
+  font-weight: 500;
+  font-size: 16px;
+  color: #474747;
+  line-height: 31px;
+  text-align: center;
+}
+
+.active_avg {
+  fill: blue;
+}
+
+.deta_delete_one svg {
+  width: 44px;
+  height: 41px;
+}
+
+.deta_delete_one svg path:hover {
+  fill: #ffa800;
+}
+
+.deta_delete_one .deta_delete_one_img1,
+.deta_delete_one .deta_delete_one_img2 {
+  margin-right: 15px;
+}
+
+.deta_delete_one .deta_delete_one_kp_x {
+  border-radius: 38px;
+  margin-right: 15px;
+  cursor: pointer;
+  display: none;
+}
+
+.deta_delete_one .deta_delete_one_kp_x .kp_x_name {
+  text-align: center;
+  font-weight: 500;
+}
+
+.deta_delete_one .kp_item {
+  background: #4c5bd4;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 10px 25px;
+  height: 41px;
+}
+
+.deta_delete_one .x_item {
+  background: #ffffff;
+  color: #ff3333;
+  border: 1px solid #ff3333;
+  padding: 10px 32px;
+  height: 41px;
+}
+
+.deta_delete_one .x_item:hover {
+  background: #ff3333;
+  color: white;
+}
+
+#qldl_dx .homnay {
+  font-size: 16px;
+  line-height: 19px;
+  color: #4c5bd4;
+}
+
+.data_delete_du_an_row .data_delete_du_an_con {
+  padding-top: 17px;
+}
+
+.data_delete_du_an_row .box_data_delete_du_an_con {
+  width: 100%;
+}
+
+.flex_wrap {
+  flex-wrap: wrap;
+}
+
+.data_delete_du_an_row .box_data_delete_du_an_con .data_delete_du_an_con {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-bottom: 1px dashed #474747;
+}
+
+@media (max-width: 1024px) {
+  #qldl_dx .creart_meeting .searchm input {
+    width: 100%;
+    font-size: 10px;
+    line-height: 26px;
+    padding: 0px 30px 0px 14px;
+  }
+
+  .searchm img.search_linh_3 {
+    top: 170px !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .searchm img.search_linh_3 {
+    display: none;
+  }
+}
+
+.action {
+  margin-left: 30px;
+}
+
+.buttun {
+  margin: 18px 11px 15px -170px;
+}
+
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper
+  .ant-table-pagination.ant-pagination {
+  margin: 16px 0;
+  display: none !important;
+}

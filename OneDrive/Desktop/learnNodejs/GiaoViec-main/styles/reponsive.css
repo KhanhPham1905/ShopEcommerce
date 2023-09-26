@@ -1,0 +1,11 @@
+@media only screen and (min-width: 1025px) {
+  /*-- Code cho màn hình lớn (PC) viết ở đây --*/
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  /*-- Code cho màn hình vừa (Table) viết ở đây --*/
+}
+
+@media only screen and (max-width: 640px) {
+  /*-- Code cho màn hình nhỏ (Mobile) viết ở đây --*/
+}

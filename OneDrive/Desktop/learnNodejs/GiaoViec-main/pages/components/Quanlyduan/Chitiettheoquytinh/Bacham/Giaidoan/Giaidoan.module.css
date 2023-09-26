@@ -1,0 +1,32 @@
+.modal {
+  width: 590px;
+}
+.thoihan > p {
+  margin: 0px;
+}
+.thoihan > p > input {
+  width: 13px;
+}
+.button {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+.button > button {
+  width: 150px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.huy {
+  background: #ffa800;
+}
+.ok {
+  background: #4c5bd4;
+}
+@media (max-width: 465px) {
+  .button > button {
+    width: 100px;
+  }
+}

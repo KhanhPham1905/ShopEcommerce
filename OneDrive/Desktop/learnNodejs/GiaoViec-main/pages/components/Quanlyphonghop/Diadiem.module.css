@@ -1,0 +1,46 @@
+.select > select {
+  width: 472px;
+}
+.name > input {
+  width: 472px;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px 0px;
+}
+.btn_huy,
+.btn_ok {
+  width: 200px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 36px;
+  border: none;
+  color: #ffffff;
+}
+.btn_huy {
+  background: #ffa800;
+}
+.btn_ok {
+  background: #4c5bd4;
+}
+@media (max-width: 435px) {
+  .btn_huy,
+  .btn_ok {
+    width: 120px;
+  }
+}
+
+@media (max-width: 375px) {
+  .btn_huy,
+  .btn_ok {
+    width: 120px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 36px;
+    border: none;
+    color: #ffffff;
+  }
+}

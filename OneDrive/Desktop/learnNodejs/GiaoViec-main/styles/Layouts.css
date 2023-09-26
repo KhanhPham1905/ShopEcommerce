@@ -1,0 +1,110 @@
+.sidebar {
+  z-index: 1;
+  height: 100vh;
+  width: 20.7%;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: #4c5bd4;
+}
+.user_name {
+  display: flex;
+  padding: 20px 0 20px 20px;
+  border-bottom: 2px solid #ffffff;
+}
+.sidebar .icon_user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.user_name .name_user {
+  color: #ffffff;
+  margin-left: 10px;
+}
+.user_name .name_user > p {
+  padding: 0px;
+  margin: 0px;
+}
+.user_name .name_user .name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.staff {
+  color: #ffffff;
+  font-size: 16px;
+}
+.sidebar_menu {
+  width: 100%;
+  float: left;
+  position: relative;
+  height: 400px;
+  overflow-y: auto;
+  color: #ffffff;
+}
+.sidebar_menu::-webkit-scrollbar {
+  width: 4px;
+  height: 7px;
+}
+.sidebar_menu::-webkit-scrollbar-thumb {
+  background: #cacef2;
+  border-radius: 4px;
+}
+.sidebar_menu::-webkit-scrollbar-track {
+  width: 7px;
+  height: 10px;
+}
+.nav_bar {
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+
+  cursor: pointer;
+}
+.nav_bar ul {
+  padding: 0;
+  float: left;
+}
+.sidebar_menu .name_d {
+  color: #ffffff;
+}
+.sidebar_menu .item_2 .ql_da {
+  display: flex;
+}
+.sidebar_menu .item_2 .ql_da .ql {
+  margin: 0px;
+  padding-top: 5px;
+}
+.sidebar_menu .item_3 .ql_tl {
+  display: flex;
+}
+.sidebar_menu .item_3 .ql_tl .ql {
+  margin: 0px;
+  padding-top: 5px;
+}
+.sidebar_menu .item_4 .ql_ph {
+  display: flex;
+}
+.sidebar_menu .item_4 .ql_ph .ph {
+  margin: 0px;
+  padding-top: 5px;
+}
+.sidebar_menu .item_6 .bao_cao {
+  display: flex;
+}
+.sidebar_menu .item_6 .bao_cao .bc {
+  margin: 0px;
+  padding-top: 5px;
+}
+.sidebar_menu .hov_li {
+  height: 50px;
+  padding: 10px 0px 0px 25px;
+}
+.sidebar_menu .hov_li:hover {
+  background: #ffc354;
+}
+.sidebar_menu .pd {
+  padding-left: 10px;
+}

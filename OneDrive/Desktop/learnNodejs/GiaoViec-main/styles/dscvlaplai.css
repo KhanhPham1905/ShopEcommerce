@@ -1,0 +1,134 @@
+.margin_2x {
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+  float: left;
+  /* margin-left: 21.7%; */
+}
+.text_cv {
+  font-size: 16px;
+  height: 38px;
+  background-color: #4c5bd4;
+  color: #ffffff;
+  padding: 13px 0 13px 20px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+}
+.name_cv {
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 13px;
+}
+.form_search_cv {
+  background-color: #ffffff;
+  height: 55px;
+  display: flex;
+  justify-content: flex-end;
+}
+.form_search_cv .search_cv {
+  margin-top: 10px;
+  padding-right: 30px;
+}
+.form_search_cv .search_cv1 {
+  border: 0.5px solid #474747;
+  padding-left: 20px;
+  border-radius: 15px;
+  height: 35px;
+}
+.img_search_cv {
+  position: absolute;
+  top: 155px;
+  right: 60px;
+}
+.margin_2x .tbl_cv .thead-light > tr > th {
+  background: #d8d8d8;
+}
+
+.tbl_cv .bang_cv {
+  border-radius: 0px 0px 10px 10px;
+}
+/* .tbl_cv .bang_cv > tr > td,
+th {
+  text-align: center;
+} */
+.tbl_cv .bang_cv > tr > td,
+.ten_cv {
+  border-bottom: 1px dashed black;
+}
+.tbl_cv .bang_cv > tr > td > img {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  cursor: pointer;
+}
+
+.tbl_cv .bang_cv > tr > td > p {
+  padding: 0;
+  margin: 0;
+}
+
+.i {
+  position: relative;
+}
+.i > .pop_sua_xoa {
+  position: absolute;
+  top: 45%;
+  right: 5%;
+  z-index: 1;
+  min-width: 230px;
+  /* display: none; */
+  text-align: unset;
+
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.pop_sua_xoa > p > img {
+  width: 16px;
+  height: 16px;
+  padding-right: 2px;
+}
+
+.pop_sua_xoa > p {
+  margin: 0px;
+  line-height: 40px;
+}
+.pop_sua_xoa > p:hover {
+  background: #d8d8d8;
+}
+.pop_sua_xoa > p:hover:first-child {
+  border-radius: 10px 10px 0px 0px;
+}
+.pop_sua_xoa > p:hover:nth-child(2) {
+  border-radius: 0px 0px 10px 10px;
+}
+.peo_th {
+  background-color: #ffffff;
+  width: 320px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 65px;
+  right: 50%;
+  z-index: 1999999;
+  border-radius: 10px;
+  max-height: 260px;
+  display: none;
+}
+.tbl_cv .bang_cv > tr > td > img:hover :hover .peo_th {
+  display: block;
+}
+.peo_th > h4 {
+  background: #4c5bd4;
+  color: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+}
+.peo_th .img_peo {
+  display: flex;
+  padding-left: 50px;
+}
+.peo_th .img_peo .peo_ten > p {
+  margin: 0px;
+}
+.peo_th .img_peo .peo_ten > p:last-child {
+  font-style: 12px;
+}
